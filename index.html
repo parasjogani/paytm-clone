@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paytm Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        screens: {
+          'sm' : '640px',
+          'md' : '768px',
+          'lg' : '1024px',
+          'xl' : '1280px'
+        }, 
+        extend: {
+          colors: {
+            myblue: '#00baf2',
+            mydarkblue: '#0f4a8a',
+            mywhite: '#f5f7fa'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-mywhite">
+
+    <!-- Navbar section -->
+    <nav class="bg-white">
+      <div class="container flex justify-between h-24 mx-auto">
+        <a href="#" class="flex items-center">
+          <img class="w-[208px]" src="./assets/paytm_logo.png" alt="paytm logo">
+        </a>
+
+        <ul class="flex-wrap items-center md:flex hidden">
+          <li class="mr-4 cursor-pointer py-2 px-3 font-semibold text-[17px]">Paytm For Consumer</li>
+          <li class="mr-4 cursor-pointer py-2 px-3 font-semibold text-[17px]">Paytm For Bussiness</li>
+          <li class="mr-4 cursor-pointer py-2 px-3 font-semibold text-[17px]">Company</li>
+          <li class="mr-4 cursor-pointer py-2 px-3 font-semibold text-[17px]">Investor Relations</li>
+          <li class="mr-4 cursor-pointer py-2 px-3 font-semibold text-[17px]">Career</li>
+        </ul>
+
+        <button class="flex justify-between items-center bg-myblue my-[30px] rounded-full hover:bg-mydarkblue px-2 text-white">Sign In
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="17" cy="17" r="17" fill="#002970"/>
+          <circle cx="17" cy="14.7331" r="7.93333" fill="white"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M4.07898 28.048C6.58399 23.4894 11.4312 20.3999 16.9999 20.3999C22.5687 20.3999 27.4159 23.4894 29.9209 28.048C26.8029 31.691 22.1711 33.9999 16.9999 33.9999C11.8288 33.9999 7.19693 31.691 4.07898 28.048Z" fill="white"/>
+          </svg></button>
+      </div>
+    </nav>
+
+    <h3 class= " text-center my-2"><span class="font-semibold ">No Wallet KYC Required</span> 😊 to pay using UPI on Paytm. <span class="font-semibold">Learn more.</span></h3>
+  
+    <!-- section 2 -->
+    <section class="bg-white">
+        <div>
+          <div>
+            <img src="./assets/paytm_icon.png" alt="paytm icon">
+          </div>
+        </div>
+    </section>
+</body>
+</html>
